@@ -1,7 +1,7 @@
-# python-asynchronous-tasks
+# Ejercicio MQ (GoodJob)
 </hr>
-
-##  Setup & Installation 
+[Contribution guidelines for this project](img/Captura desde 2022-11-23 00-53-07.png)
+##  Instalación
 
 1er paso, instalar docker
 ```bash
