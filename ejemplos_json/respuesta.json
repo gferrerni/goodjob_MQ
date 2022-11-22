@@ -1,0 +1,15 @@
+{
+  "time": 1668968152676,
+  "original_amount": 1000.2342,
+  "original_currency": "eur",
+  "exchanges": [
+    {
+      "exc_amount": 1232.523198345428,
+      "currency": "usd"
+    },{
+      "exc_amount": 982.4646483454278,
+      "currency": "chf"
+    }
+  ]
+}
+
