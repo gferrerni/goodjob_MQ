@@ -4,11 +4,15 @@
 
 ##  Instalación
 
-1er paso, instalar docker
+1er paso, instalar docker, docker compose y celery
 ```bash
 install docker
 curl -fsSL https://get.docker.com -o get-docker.sh
 DRY_RUN=1 sudo sh ./get-docker.sh
+
+sudo curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+sudo apt-get -y install celery
 ```
 
 2do paso, crea un venv y instala las dependencias:
