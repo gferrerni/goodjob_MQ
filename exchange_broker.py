@@ -1,5 +1,5 @@
 from celery import Celery
-from customer import response
+from consumer import response
 
 broker_url = "amqp://localhost"
 redis_url = "redis://localhost"
