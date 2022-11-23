@@ -2,6 +2,8 @@
 
 ![Ejemplo](img/Captura.png)
 
+![Diagrama](img/diagrama.png)
+
 ##  Instalación
 
 1er paso, instalar docker, docker compose y celery
