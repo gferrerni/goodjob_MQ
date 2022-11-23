@@ -5,6 +5,10 @@ def getConversionRates():
     return resp.json()
     
 def response(requestJSON):
-    r = getConversionRates()
+    ConversionRates = getConversionRates()
+    r = {"time": requestJSON["time"],"original_amount": requestJSON["amount"],"original_currency":requestJSON["currency"],"exchanges": []}
+    for currency,exc_amount in ConversionRates["conversion_rates"].items():
+    	print(requestJSON['amount'],"*",exc_amount)
+    	r["exchanges"].append({"exc_amount": requestJSON["amount"]*exc_amount,"currency": currency})
     return r
 

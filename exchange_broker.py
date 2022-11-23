@@ -6,7 +6,7 @@ redis_url = "redis://localhost"
 app = Celery('tasks', broker=broker_url, backend=redis_url)
 
 @app.task
-def exchange_broker(requestJSON: str):
+def exchange_broker(requestJSON):
     r = response(requestJSON)
     print("recibido! Calculando...")
     print(r)

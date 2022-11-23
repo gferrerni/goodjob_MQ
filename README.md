@@ -45,6 +45,6 @@ $ celery -A exchange_broker worker -l info --pool=solo
 Envia una tarea en JSON a celery worker:
 Abre una terminal con el siguiente comando
 ```bash
-$ python3 producer.py 1234,30 eur
+$ python3 producer.py 1234.30 eur
 ```
 
