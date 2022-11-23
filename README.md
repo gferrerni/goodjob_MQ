@@ -1,6 +1,7 @@
 # Ejercicio MQ (GoodJob)
-</hr>
-[Contribution guidelines for this project](img/Captura desde 2022-11-23 00-53-07.png)
+
+![Ejemplo](img/Captura.png)
+
 ##  Instalación
 
 1er paso, instalar docker
