@@ -1,10 +1,10 @@
-from broker import exchange_broker
-
- 
-def getCurrencies():
+import requests
+import json
+def getConversionRates():
     resp = requests.get(url="https://v6.exchangerate-api.com/v6/5047581ce1a477d56267e863/latest/EUR")
-    data = resp.json()
+    return resp.json()
     
-    
-	
-exchange_broker.delay("Valon")
+def response(requestJSON):
+    r = getConversionRates()
+    return r
+
